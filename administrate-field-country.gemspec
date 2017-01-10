@@ -9,8 +9,8 @@ Gem::Specification.new do |gem|
   gem.email         = ['mar.arduini@gmail.com']
 
   gem.summary       = 'A plugin to deal with country selection in Administrate'
-  gem.description   = 'Easily integrate country selection in Administrate'
-  gem.homepage      = 'TODO: Put your gem\'s website or public repo URL here.'
+  gem.description   = gem.summary
+  gem.homepage      = 'https://github.com/z-productions/administrate-field-country'
   gem.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
