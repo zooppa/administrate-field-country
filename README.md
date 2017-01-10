@@ -1,44 +1,35 @@
 # Administrate::Field::Country
 
-Integrate (country_select)[https://github.com/stefanpenner/country_select] with
-(administrate)[https://github.com/thoughtbot/administrate].
+[![Code Climate](https://codeclimate.com/github/z-productions/administrate-field-country/badges/gpa.svg)](https://codeclimate.com/github/z-productions/administrate-field-country)
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'administrate-field-country'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install administrate-field-country
+A plugin to deal with country selection in [Administrate], with the help of [country_select] gem.
 
 ## Usage
 
+Add it to your `Gemfile`:
+
 ```ruby
-ATTRIBUTE_TYPES = {
-  country: Field::Country
-}
+gem 'administrate-field-country', '~> 0.0.1'
 ```
 
-## Development
+Run:
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+```bash
+$ bundle install
+```
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+Add to your `FooDashboard`:
 
-## Contributing
+```ruby
+ATTRIBUTE_TYPES = {
+  bar: Field::Country
+}.freeze
+```
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/nerfologist/administrate-field-country.
+## About
 
+Administrate::Field::Country is maintained by [z.productions].
 
-## License
-
-The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
+[Administrate]: https://github.com/thoughtbot/administrate
+[country_select]: https://github.com/stefanpenner/country_select
+[z.productions]: https://www.z.productions/
