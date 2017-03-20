@@ -13,15 +13,6 @@ Gem::Specification.new do |gem|
   gem.homepage      = 'https://github.com/zooppa/administrate-field-country'
   gem.license       = 'MIT'
 
-  # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
-  # to allow pushing to a single host or delete this section to allow pushing to any host.
-  if gem.respond_to?(:metadata)
-    gem.metadata['allowed_push_host'] = 'TODO: Set to \'http://mygemserver.com\''
-  else
-    raise 'RubyGems 2.0 or newer is required to protect against ' \
-      'public gem pushes.'
-  end
-
   gem.require_paths = ['lib']
   gem.files = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
