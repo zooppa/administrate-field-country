@@ -27,7 +27,7 @@ Gem::Specification.new do |gem|
     f.match(%r{^(test|spec|features)/})
   end
 
-  gem.add_runtime_dependency 'administrate', '~> 0.3.0'
+  gem.add_runtime_dependency 'administrate', '~> 0.4.0'
   gem.add_runtime_dependency 'rails', '>= 4.2'
   gem.add_runtime_dependency 'country_select', '~> 3.0'
 
