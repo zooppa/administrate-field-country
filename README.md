@@ -1,6 +1,6 @@
 # Administrate::Field::Country
 
-[![Code Climate](https://codeclimate.com/github/z-productions/administrate-field-country/badges/gpa.svg)](https://codeclimate.com/github/z-productions/administrate-field-country)
+[![Code Climate](https://codeclimate.com/github/zooppa/administrate-field-country/badges/gpa.svg)](https://codeclimate.com/github/zooppa/administrate-field-country)
 
 A plugin to deal with country selection in [Administrate], with the help of [country_select] gem.
 

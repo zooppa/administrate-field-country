@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
 
   gem.summary       = 'A plugin to deal with country selection in Administrate'
   gem.description   = gem.summary
-  gem.homepage      = 'https://github.com/z-productions/administrate-field-country'
+  gem.homepage      = 'https://github.com/zooppa/administrate-field-country'
   gem.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
