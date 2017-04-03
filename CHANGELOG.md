@@ -1,6 +1,6 @@
 # Changelog
 
-## [v0.0.2](https://github.com/zooppa/administrate-field-country/tree/v0.0.2) (2016-11-29)
+## [v0.0.2](https://github.com/zooppa/administrate-field-country/tree/v0.0.2) (2017-03-20)
 [Full Changelog](https://github.com/zooppa/administrate-field-country/compare/v0.0.1...v0.0.2)
 
 * Bump up Administrate dependency
