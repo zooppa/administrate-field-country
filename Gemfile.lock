@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    administrate-field-country (0.0.3)
+    administrate-field-country (0.0.4)
       administrate (< 1.0.0)
       country_select (~> 3.1)
       rails (>= 4.2)

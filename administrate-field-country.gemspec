@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = 'administrate-field-country'
-  gem.version       = '0.0.3'
+  gem.version       = '0.0.4'
   gem.authors       = ['Marco Arduini']
   gem.email         = ['mar.arduini@gmail.com']
 

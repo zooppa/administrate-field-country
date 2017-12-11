@@ -1,5 +1,10 @@
 # Changelog
 
+## [v0.0.4](https://github.com/zooppa/administrate-field-country/tree/v0.0.4) (2017-12-11)
+[Full Changelog](https://github.com/zooppa/administrate-field-country/compare/v0.0.3...v0.0.4)
+
+* Upgrade country_select
+
 ## [v0.0.3](https://github.com/zooppa/administrate-field-country/tree/v0.0.3) (2017-04-03)
 [Full Changelog](https://github.com/zooppa/administrate-field-country/compare/v0.0.2...v0.0.3)
 
