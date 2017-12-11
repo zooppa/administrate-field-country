@@ -28,8 +28,8 @@ ATTRIBUTE_TYPES = {
 
 ## About
 
-Administrate::Field::Country is maintained by [z.productions].
+Administrate::Field::Country is maintained by [Zooppa].
 
-[Administrate]: https://github.com/thoughtbot/administrate
+[administrate]: https://github.com/thoughtbot/administrate
 [country_select]: https://github.com/stefanpenner/country_select
-[z.productions]: https://www.z.productions/
+[zooppa]: https://www.zooppa.com/
