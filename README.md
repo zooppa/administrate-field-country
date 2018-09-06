@@ -1,5 +1,6 @@
 # Administrate::Field::Country
 
+[![Build Status](https://semaphoreci.com/api/v1/zooppa/administrate-field-country/branches/master/badge.svg)](https://semaphoreci.com/zooppa/administrate-field-country)
 [![Code Climate](https://codeclimate.com/github/zooppa/administrate-field-country/badges/gpa.svg)](https://codeclimate.com/github/zooppa/administrate-field-country)
 
 A plugin to deal with country selection in [Administrate], with the help of [country_select] gem.
