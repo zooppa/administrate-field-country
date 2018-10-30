@@ -27,4 +27,22 @@ describe Administrate::Field::Country do
       end
     end
   end
+
+  describe '#country_select_options' do
+    let(:output) { subject.country_select_options }
+
+    context 'with nil' do
+      it 'returns an empty hash' do
+        expect(output).to eq({})
+      end
+    end
+
+    context 'with a valid option' do
+      let(:options) { { country_select_options: { include_blank: true } } }
+
+      it 'returns the options hash' do
+        expect(output).to eq({ include_blank: true })
+      end
+    end
+  end
 end

@@ -2,5 +2,5 @@
   <%= f.label field.attribute %>
 </div>
 <div class="field-unit__field">
-  <%= f.country_select field.attribute, priority_countries: %w(US IT GB), include_blank: true %>
+  <%= f.country_select field.attribute, field.country_select_options %>
 </div>

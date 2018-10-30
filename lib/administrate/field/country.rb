@@ -9,6 +9,10 @@ module Administrate
       def to_s
         data
       end
+
+      def country_select_options
+        options.fetch(:country_select_options, {})
+      end
     end
   end
 end
