@@ -1,5 +1,5 @@
-require 'administrate/field/base'
 require 'rails'
+require 'administrate/field/base'
 
 module Administrate
   module Field
