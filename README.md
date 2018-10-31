@@ -5,12 +5,14 @@
 
 A plugin to deal with country selection in [Administrate], with the help of [country_select] gem.
 
+You can customize any [country_select options] by passing a `country_select_options` hash in your dashboard configuration (see below).
+
 ## Usage
 
 Add it to your `Gemfile`:
 
 ```ruby
-gem 'administrate-field-country', '~> 0.0.1'
+gem 'administrate-field-country', '~> 0.1.0'
 ```
 
 Run:
@@ -23,14 +25,15 @@ Add to your `FooDashboard`:
 
 ```ruby
 ATTRIBUTE_TYPES = {
-  bar: Field::Country
+  bar: Field::Country.with_options(country_select_options: { priority_countries: %w[US IT GB], include_blank: true })
 }.freeze
 ```
 
 ## About
 
-Administrate::Field::Country is maintained by [Zooppa].
+This gem is maintained by [Zooppa].
 
 [administrate]: https://github.com/thoughtbot/administrate
 [country_select]: https://github.com/stefanpenner/country_select
-[zooppa]: https://www.zooppa.com/
+[country_select options]: https://github.com/stefanpenner/country_select#usage
+[zooppa]: https://github.com/zooppa
