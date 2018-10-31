@@ -5,11 +5,11 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 Gem::Specification.new do |gem|
   gem.name          = 'administrate-field-country'
   gem.version       = '0.0.4'
-  gem.authors       = ['Marco Arduini']
-  gem.email         = ['mar.arduini@gmail.com']
+  gem.authors       = ['Zooppa']
+  gem.email         = ['dev@zooppa.com']
 
-  gem.summary       = 'A plugin to deal with country selection in Administrate'
-  gem.description   = gem.summary
+  gem.summary       = 'Country field plugin for Administrate'
+  gem.description   = 'A plugin to deal with country selection in Administrate'
   gem.homepage      = 'https://github.com/zooppa/administrate-field-country'
   gem.license       = 'MIT'
 
