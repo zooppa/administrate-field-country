@@ -1,5 +1,10 @@
 # Changelog
 
+## [v0.1.1](https://github.com/zooppa/administrate-field-country/tree/v0.1.0) (2019-01-30)
+[Full Changelog](https://github.com/zooppa/administrate-field-country/compare/v0.1.0...v0.1.1)
+
+* Security fixes
+
 ## [v0.1.0](https://github.com/zooppa/administrate-field-country/tree/v0.1.0) (2018-10-30)
 [Full Changelog](https://github.com/zooppa/administrate-field-country/compare/v0.0.4...v0.1.0)
 
