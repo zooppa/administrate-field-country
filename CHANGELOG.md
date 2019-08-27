@@ -1,5 +1,10 @@
 # Changelog
 
+## [v0.2.0](https://github.com/zooppa/administrate-field-country/tree/v0.2.0) (2019-08-27)
+[Full Changelog](https://github.com/zooppa/administrate-field-country/compare/v0.1.0...v0.2.0)
+
+* Update the requirements on Rails to permit the latest version
+
 ## [v0.1.1](https://github.com/zooppa/administrate-field-country/tree/v0.1.0) (2019-01-30)
 [Full Changelog](https://github.com/zooppa/administrate-field-country/compare/v0.1.0...v0.1.1)
 
