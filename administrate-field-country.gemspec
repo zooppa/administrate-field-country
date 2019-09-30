@@ -22,6 +22,6 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency 'rails', '>= 4.2', '< 7'
   gem.add_runtime_dependency 'country_select', '>= 3.1', '< 5.0'
 
-  gem.add_development_dependency 'rake', '~> 12.3'
+  gem.add_development_dependency 'rake', '~> 13.0'
   gem.add_development_dependency 'rspec', '~> 3.8'
 end
