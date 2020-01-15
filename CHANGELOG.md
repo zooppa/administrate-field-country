@@ -1,5 +1,10 @@
 # Changelog
 
+## [v0.2.1](https://github.com/zooppa/administrate-field-country/tree/v0.2.1) (2020-01-15)
+[Full Changelog](https://github.com/zooppa/administrate-field-country/compare/v0.2.0...v0.2.1)
+
+* Require Rack greater than 2.0.8
+
 ## [v0.2.0](https://github.com/zooppa/administrate-field-country/tree/v0.2.0) (2019-08-27)
 [Full Changelog](https://github.com/zooppa/administrate-field-country/compare/v0.1.0...v0.2.0)
 

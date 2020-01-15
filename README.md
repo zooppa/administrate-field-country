@@ -12,7 +12,7 @@ You can customize any [country_select options] by passing a `country_select_opti
 Add it to your `Gemfile`:
 
 ```ruby
-gem 'administrate-field-country', '~> 0.2.0'
+gem 'administrate-field-country', '~> 0.2.1'
 ```
 
 Run:
