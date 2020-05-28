@@ -7,6 +7,16 @@ A plugin to deal with country selection in [Administrate], with the help of [cou
 
 You can customize any [country_select options] by passing a `country_select_options` hash in your dashboard configuration (see below).
 
+---
+
+### IMPORTANT NOTICE
+
+**This gem is not actively maintained anymore**.
+
+If you’re interested in taking over and steward the project moving forward, please get in touch.
+
+---
+
 ## Usage
 
 Add it to your `Gemfile`:
