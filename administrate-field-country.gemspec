@@ -19,7 +19,7 @@ Gem::Specification.new do |gem|
   end
 
   gem.add_runtime_dependency 'administrate', '< 1.0.0'
-  gem.add_runtime_dependency 'rails', '>= 4.2', '< 7'
+  gem.add_runtime_dependency 'rails', '>= 4.2', '< 8'
   gem.add_runtime_dependency 'country_select', '>= 3.1', '< 5.0'
   gem.add_runtime_dependency 'rack', '~> 2.0', '>= 2.0.8'
 
