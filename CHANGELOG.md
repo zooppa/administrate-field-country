@@ -1,5 +1,11 @@
 # Changelog
 
+## [v0.3.0](https://github.com/zooppa/administrate-field-country/tree/v0.3.0) (2022-01-06)
+
+[Full Changelog](https://github.com/zooppa/administrate-field-country/compare/v0.2.1...v0.3.0)
+
+- Add support for Rails 7
+
 ## [v0.2.1](https://github.com/zooppa/administrate-field-country/tree/v0.2.1) (2020-01-15)
 
 [Full Changelog](https://github.com/zooppa/administrate-field-country/compare/v0.2.0...v0.2.1)
