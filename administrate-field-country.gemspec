@@ -1,5 +1,4 @@
-# coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
+lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
@@ -19,10 +18,11 @@ Gem::Specification.new do |gem|
   end
 
   gem.add_runtime_dependency 'administrate', '< 1.0.0'
-  gem.add_runtime_dependency 'rails', '>= 4.2', '< 8'
   gem.add_runtime_dependency 'country_select', '>= 3.1', '< 5.0'
   gem.add_runtime_dependency 'rack', '~> 2.0', '>= 2.0.8'
+  gem.add_runtime_dependency 'rails', '>= 4.2', '< 8'
 
   gem.add_development_dependency 'rake', '~> 13.0'
   gem.add_development_dependency 'rspec', '~> 3.8'
+  gem.add_development_dependency 'rubocop', '~> 1.1'
 end
