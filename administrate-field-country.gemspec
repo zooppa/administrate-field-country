@@ -1,16 +1,21 @@
+# frozen_string_literal: true
+
 lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
-  gem.name          = 'administrate-field-country'
-  gem.version       = '0.3.0'
-  gem.authors       = ['Zooppa']
-  gem.email         = ['dev@zooppa.com']
+  gem.name = 'administrate-field-country'
+  gem.version = '0.3.0'
+  gem.authors = ['Zooppa']
+  gem.email = ['dev@zooppa.com']
 
-  gem.summary       = 'Country field plugin for Administrate'
-  gem.description   = 'A plugin to deal with country selection in Administrate'
-  gem.homepage      = 'https://github.com/zooppa/administrate-field-country'
-  gem.license       = 'MIT'
+  gem.summary = 'Country field plugin for Administrate'
+  gem.description = 'A plugin to deal with country selection in Administrate'
+  gem.homepage = 'https://github.com/zooppa/administrate-field-country'
+  gem.license = 'MIT'
+  gem.metadata['rubygems_mfa_required'] = 'true'
+
+  gem.required_ruby_version = '>= 2.7.5'
 
   gem.require_paths = ['lib']
   gem.files = `git ls-files -z`.split("\x0").reject do |f|
